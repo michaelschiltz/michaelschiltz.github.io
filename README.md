@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+## About myself
 
-You can use the [editor on GitHub](https://github.com/michaelschiltz/michaelschiltz.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+I am currently working for the Department of International History at the Graduate Institue, Geneva; at the same time, I am the digital preservationist and curator for a unique collection of historical stock exchange quotes hosted there. Before, I was associate professor of financial history at the Institute for Advanced Studies on Asia, University of Tokyo. In 2012, I published “The Money Doctors From Japan: Finance, Imperialism, and the Building of the Yen Bloc, 1895-1937”, with Harvard University Press. 
+Apart from being a financial historian, I have been rather vocal in advocating OpenAccess, OpenSource, and a whole lot of other things with 'open' as a prefix. Nowadays, my interests include encryption and privacy, alternative methods for scientific publishing, strategies for enhancing the reproducability of scientific results, and so forth...
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/michaelschiltz/michaelschiltz.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
