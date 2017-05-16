@@ -8,5 +8,5 @@ Although my (little?) son attempts to make my hobbies impossible, I remain: free
 ## My [CV](/CurriculumVitaeMichaelSchiltz.pdf)
 
 ## Find me on:
-* twitter: @michaelschiltz
+* twitter: [@michaelschiltz](https://twitter.com/michaelschiltz)
 * figshare: [profile page](https://figshare.com/authors/Michael_Schiltz/409900)
