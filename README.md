@@ -6,7 +6,8 @@ It used to be different. From 2011 to 2016, I was associate professor of financi
 And, oh yes, I have also published stuff. In 2012, Harvard University Press published my *The Money Doctors From Japan: Finance, Imperialism, and the Building of the Yen Bloc, 1895-1937*. I am currently completing a second book manuscript titled *"On an Even Keel' - Silver Risk, Trade Finance, and Hedging Strategies around the Turn of the Twentieth Century*. This book concentrates on the history of exchange banking practice from and after the turbulent 1870s, when the 'fall of silver' became a worldwide systemic event.
 
 Even then, research has always been so much more. Apart from being a financial historian, I have been rather vocal in advocating OpenAccess, OpenSource, and a whole lot of other things with 'open' as a prefix. Nowadays, my interests include encryption and privacy, alternative methods for scientific publishing, strategies for enhancing the transparency and reproducibility of scientific results, and so forth...
-Although my (little?) son attempts to make my hobbies impossible, I remain: free jazz aficionado, admirer of contemporary art, and amateur cook.
+
+Although my (little?) son attempts to make my hobbies impossible, I remain: free jazz aficionado, record collector, admirer of contemporary art, and proudly persisting amateur cook.
 
 ## My [CV](/CurriculumVitaeMichaelSchiltz.pdf)
 
