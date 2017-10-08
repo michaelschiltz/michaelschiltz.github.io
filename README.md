@@ -15,3 +15,5 @@ Although my (little?) son attempts to make my hobbies impossible, I remain: free
 * twitter: [@michaelschiltz](https://twitter.com/michaelschiltz)
 * figshare: [profile page](https://figshare.com/authors/Michael_Schiltz/409900)
 * [google scholar](https://scholar.google.ch/citations?user=A0GNY-IAAAAJ&hl=en)
+
+![image](/img_Yuki.jpg)
