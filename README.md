@@ -9,7 +9,7 @@ Even then, **research has always been so much more**. Apart from being a financi
 
 Although my (little?) son attempts to make my hobbies impossible, I remain: free jazz aficionado, record collector, admirer of contemporary art, and proudly persisting amateur cook. Other interests are: hardware hacking (this includes a pronounced passion for knife forging and sharpening!), the ['maker culture'](https://en.wikipedia.org/wiki/Maker_culture) (a remnant of living in Japan, I like to believe), the [Right-to-Repair](https://www.eff.org/issues/right-to-repair)-movement (and, related the '[right to destroy](https://www.yalelawjournal.org/article/the-right-to-destroy)'!) etc. 
 
-For a long time, I have been fascinated by Japanese cuisine :fried_shrimp: :sushi:. Also, if you are interested in :sake:, let me know. I am planning a comprehensive repository of Japanese sakes on GitHub.
+For a long time, I have been fascinated by Japanese cuisine :fried_shrimp: :sushi: :crab:. Also, if you are interested in sake :sake:, let me know. I am planning a comprehensive repository of Japanese sakes on GitHub.
 
 ## My [CV](/CurriculumVitaeMichaelSchiltz.pdf)
 
