@@ -11,7 +11,8 @@ Although my (little?) son attempts to make my hobbies impossible, I remain: [fre
 
 For a long time, I have been fascinated by Japanese cuisine :fried_shrimp: :sushi: :crab:. Also, if you are interested in sake :sake:, let me know. I am planning a comprehensive repository of Japanese sakes on GitHub.
 
-## My [CV](/CurriculumVitaeMichaelSchiltz.pdf)
+## My [CV](/Curriculum_Vitae_Michael_Schiltz.pdf)
+
 
 ## Find me on:
 * twitter: [@michaelschiltz](https://twitter.com/michaelschiltz)
