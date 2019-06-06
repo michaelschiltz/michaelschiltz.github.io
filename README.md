@@ -18,5 +18,6 @@ For a long time, I have been fascinated by Japanese cuisine :fried_shrimp: :sush
 * twitter: [@michaelschiltz](https://twitter.com/michaelschiltz)
 * figshare: [profile page](https://figshare.com/authors/Michael_Schiltz/409900)
 * [google scholar](https://scholar.google.ch/citations?user=A0GNY-IAAAAJ&hl=en)
+* ... or contact me @ michael.schiltz`@`gmail.com
 
 ![image](/img_Yuki.jpg)
