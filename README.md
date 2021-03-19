@@ -15,6 +15,7 @@ Although my (little?) son attempts to make my hobbies impossible, I remain: [fre
 * Twitter: [@michaelschiltz](https://twitter.com/michaelschiltz)
 * Figshare: [profile page](https://figshare.com/authors/Michael_Schiltz/409900)
 * [google scholar](https://scholar.google.ch/citations?user=A0GNY-IAAAAJ&hl=en)
+* [Instagram](https://instagram.com/schiltzmichael) (unrelated to research)
 * ... or contact me @ michael.schiltz`@`gmail.com
 
 ![image](/img_Yuki.jpg)
