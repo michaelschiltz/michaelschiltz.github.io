@@ -1,4 +1,4 @@
-## About myself
+## About me
 
 I am currently working for the [Modern Japanese Studies Program](https://www.oia.hokudai.ac.jp/mjsp/) at [Hokkaido University](https://www.global.hokudai.ac.jp/); that is on Japan's beautiful northernmost island, indeed. Until September 2018, I had a hybrid position as director of Digital Humanities and lecturer in history at the [Graduate Institute](http://graduateinstitute.ch/home.html), Geneva. There, my position entailed more than research and teaching. For better of for worse, I happened to be the digital preservationist and curator for a [unique collection of historical stock exchange quotes hosted there](https://github.com/michaelschiltz/capital-markets-of-the-world). It used to be different. From 2011 to 2016, I was an associate professor of financial history at the [Institute for Advanced Studies on Asia](http://www.ioc.u-tokyo.ac.jp/eng/), of the [University of Tokyo](http://www.u-tokyo.ac.jp/en/).
 
