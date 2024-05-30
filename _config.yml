@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
-title: The personal homepage of Michael Schiltz, financial historian and intermittent archivist
-description: What you will find here are links to projects, publications, and repositories related to the former. Expect some delay in reporting!
+title: The homepage of Michael Schiltz, financial historian & intermittent archivist
+description: What you will find here are links to projects, publications, and repositories related to the former.
 plugins:
   - jemoji
 url: "https://michaelschiltz.github.io/"
