@@ -16,7 +16,7 @@ Although my (little?) son attempts to make my hobbies impossible, I remain: [fre
 
 ## My [CV](/Curriculum_Vitae_Michael_Schiltz.pdf)
 
-## Find me on
+## Find me on:
 
 * Twitter: [@michaelschiltz](https://twitter.com/michaelschiltz)
 * Figshare: [profile page](https://figshare.com/authors/Michael_Schiltz/409900)
