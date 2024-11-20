@@ -14,7 +14,9 @@ Although my (little?) son attempts to make my hobbies impossible, I remain: [fre
 * Inspired by earlier research by, among others, [William Goetzmann](https://en.wikipedia.org/wiki/William_N._Goetzmann) and [Geoffrey Poitras](http://www.sfu.ca/~poitras/), I got interested in the way vernacular mathematical education relates to the development of finance (e.g. in actuarial science) and financial products. I therefore started studying the _Jinkoki_ [塵劫記](https://ja.wikipedia.org/wiki/%E5%A1%B5%E5%8A%AB%E8%A8%98), the Japanese equivalent of the _[Liber Abaci](https://en.wikipedia.org/wiki/Liber_Abaci)_ of [Leonardo di Pisa](https://en.wikipedia.org/wiki/Fibonacci) (Fibonacci). Realizing that there does not exist an authoritative translation into English, I may try my hand at this.
 * And, of course, the exchange banks project isn't finished yet. I recently received a large stack of archives, comprising the balance sheets of both the [Chartered Bank of India, Australia and China](https://en.wikipedia.org/wiki/Chartered_Bank_of_India,_Australia_and_China) and the [Mercantile Bank of India, London, and China](https://en.wikipedia.org/wiki/Mercantile_Bank_of_India,_London_and_China). These should throw further light on the way the international banks chose to cope with the fall of silver in the late nineteenth century.
 
-## My [CV](/Curriculum_Vitae_Michael_Schiltz.pdf)
+## My CV
+
+[Download my CV here](/Curriculum_Vitae_Michael_Schiltz.pdf)
 
 ## Find me on:
 
@@ -25,6 +27,3 @@ Although my (little?) son attempts to make my hobbies impossible, I remain: [fre
 * ... or contact me @ michael.schiltz`@`gmail.com
 
 ![image](/img_Yuki.jpg)
-
-
-[def]: http://graduateinstitute.ch/home.html
