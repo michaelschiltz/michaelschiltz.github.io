@@ -1,31 +1,46 @@
-# About me
+# Michael Schiltz
 
-I am currently working for the [Modern Japanese Studies Program](https://www.oia.hokudai.ac.jp/mjsp/) at [Hokkaido University](https://www.hokudai.ac.jp); from April 2026 onwards, I am also associated with the University's Graduate School of Economics and Business Administration. Until September 2018, I had a hybrid position as director of Digital Humanities and lecturer in history at the [Graduate Institute](https://www.graduateinstitute.ch/), Geneva. There, my position entailed more than research and teaching. For better or for worse, I happened to be the digital preservationist and curator for a [unique collection of historical stock exchange quotes hosted there](https://github.com/michaelschiltz/capital-markets-of-the-world). It used to be different. From 2011 to 2016, I was an associate professor of financial history at the [Institute for Advanced Studies on Asia](http://www.ioc.u-tokyo.ac.jp/eng/), of the [University of Tokyo](http://www.u-tokyo.ac.jp/en/).
+Michael Schiltz is a financial historian affiliated with the [Modern Japanese Studies Program](https://www.oia.hokudai.ac.jp/mjsp/) at [Hokkaido University](https://www.hokudai.ac.jp). From April 2026 onward, he is also associated with the University's Graduate School of Economics and Business Administration.
 
-**I have published stuff**. In 2012, Harvard University Press published [_The Money Doctors From Japan: Finance, Imperialism, and the Building of the Yen Bloc, 1895-1937_](http://www.hup.harvard.edu/catalog.php?isbn=9780674062498). Not so long ago (in October 2020), Oxford University press released my second monograph titled [_Accounting for the Fall of Silver_](https://global.oup.com/academic/product/accounting-for-the-fall-of-silver-9780198865025?cc=us&lang=en). This book concentrates on the history of exchange banking practice in Asia after the turbulent 1870s, when the 'fall of silver' became a worldwide systemic event. It was inspired by the massive archives of the [Yokohama Specie Bank](https://en.wikipedia.org/wiki/Yokohama_Specie_Bank), which I was happy to find at the [Rare Materials Reading Room](http://www.lib.e.u-tokyo.ac.jp/?page_id=1946) of the Economics Faculty Library at UTokyo. The book clears up a longstanding problem in financial history, which was pointed out by Frank King in the 1980s, but was left unanswered for decades. An extensive repository related to this book project is hosted on [Fig**Share**](https://figshare.com/projects/Yokohama_Specie_Bank___/2173). I also refer to the [research logbooks on GitHub](https://github.com/michaelschiltz/even-keel), where I document both the obvious and less obvious choices regarding data selection, calculations, and interpretations. For articles in journals and book chapters, see my [Google Scholar profile](https://scholar.google.ch/citations?user=A0GNY-IAAAAJ&hl=en), or check my cv below.
+His research focuses on the history of finance in Japan and Asia, exchange banking, monetary systems, and the archival foundations of historical work. Alongside this, he remains deeply interested in digital preservation, open scholarship, reproducible research, encryption, and privacy.
 
-**NEW: I have added a category 'working papers, preprints, and other unpublished stuff' to my [CV](/Curriculum_Vitae_Michael_Schiltz.pdf).** This includes a few manuscripts that are still in progress, mostly for an ongoing book project.
+This site brings together publications, current projects, datasets, and research notes.
 
-Still, **research has been so much more**. Apart from being a financial historian, I have been quite vocal in advocating [OpenAccess](https://en.wikipedia.org/wiki/Open_access), [OpenSource](https://en.wikipedia.org/wiki/Open-source_software) (or, probably more accurately (?), [free software](https://www.gnu.org/philosophy/free-sw.en.html)), and a lot of other things with 'open' as a prefix. Nowadays, my interests include encryption and privacy, alternative methods for scientific publishing, strategies for enhancing the transparency and reproducibility of scientific results, and so forth... The mainstay of my practical interests is [_digital preservation_](https://en.wikipedia.org/wiki/Digital_preservation), a topic that captured my imagination long ago, during research time at the [Library of Congress](https://loc.gov/) in Washington DC. I did advisory work for international organizations, the arts, and small to medium size memory institutions with regard to the sustainable preservation of their collections.
+## Current and Previous Positions
 
-Although my (little?) son attempts to make my hobbies impossible, I remain: [free jazz](https://en.wikipedia.org/wiki/Free_jazz) aficionado, record collector, admirer of contemporary art, and proudly persisting amateur cook. Other interests are: hardware hacking (this includes a passion for knife forging and sharpening!), the ['maker culture'](https://en.wikipedia.org/wiki/Maker_culture), the [Right-to-Repair](https://www.eff.org/issues/right-to-repair)-movement (and the '[right to destroy](https://www.yalelawjournal.org/article/the-right-to-destroy)'!).
+Before moving to Hokkaido University, Michael Schiltz served until September 2018 as director of Digital Humanities and lecturer in history at the [Graduate Institute](https://www.graduateinstitute.ch/) in Geneva. In that role, he was also responsible for digital preservation and for curating a [major collection of historical stock exchange quotes](https://github.com/michaelschiltz/capital-markets-of-the-world).
 
-## New Projects?
+From 2011 to 2016, he was associate professor of financial history at the [Institute for Advanced Studies on Asia](http://www.ioc.u-tokyo.ac.jp/eng/) at the [University of Tokyo](http://www.u-tokyo.ac.jp/en/).
 
-* I started working on another book manuscript, tentatively called "Japan: A Thousand Years of Financial Innovation". It's not yet clear where this project is going, but, if everything goes well, it should become an introduction to the financial history of the country. Remarkably, there's no such thing in English, and even in Japanese this is non-existent. Fortunately, there has been a recent surge in excellent publications (mostly monographs in Japanese) that point the way to primary sources and topics for a generalist study.
-* Inspired by earlier research by, among others, [William Goetzmann](https://en.wikipedia.org/wiki/William_N._Goetzmann) and [Geoffrey Poitras](http://www.sfu.ca/~poitras/), I got interested in the way vernacular mathematical education relates to the development of finance (e.g. in actuarial science) and financial products. I therefore started studying the _Jinkoki_ [塵劫記](https://ja.wikipedia.org/wiki/%E5%A1%B5%E5%8A%AB%E8%A8%98), the Japanese equivalent of the _[Liber A[b]baci](https://en.wikipedia.org/wiki/Liber_Abaci)_ of [Leonardo di Pisa](https://en.wikipedia.org/wiki/Fibonacci) (Fibonacci). Realizing that there does not exist an authoritative translation into English, I may try my hand at this.
-* And, of course, the exchange banks project isn't finished yet. I recently received a large stack of archives, comprising the balance sheets of both the [Chartered Bank of India, Australia and China](https://en.wikipedia.org/wiki/Chartered_Bank_of_India,_Australia_and_China) and the [Mercantile Bank of India, London, and China](https://en.wikipedia.org/wiki/Mercantile_Bank_of_India,_London_and_China). These should throw further light on the way the international banks chose to cope with the fall of silver in the late nineteenth century.
+## Books and Publications
 
-## My CV
+Harvard University Press published [_The Money Doctors from Japan: Finance, Imperialism, and the Building of the Yen Bloc, 1895-1937_](http://www.hup.harvard.edu/catalog.php?isbn=9780674062498) in 2012.
 
-[Download my CV here](/Curriculum_Vitae_Michael_Schiltz.pdf)
+In 2020, Oxford University Press published [_Accounting for the Fall of Silver_](https://global.oup.com/academic/product/accounting-for-the-fall-of-silver-9780198865025?cc=us&lang=en), a study of exchange banking practice in Asia after the monetary disruptions of the 1870s. The book grew out of extensive work on the archives of the [Yokohama Specie Bank](https://en.wikipedia.org/wiki/Yokohama_Specie_Bank), especially the materials preserved in the [Rare Materials Reading Room](http://www.lib.e.u-tokyo.ac.jp/?page_id=1946) of the Economics Faculty Library at the University of Tokyo.
 
-## Find me on:
+An extensive repository related to this research is available on [Figshare](https://figshare.com/projects/Yokohama_Specie_Bank___/2173). Related methodological notes, source choices, calculations, and interpretations are documented in the [research logbooks on GitHub](https://github.com/michaelschiltz/even-keel).
 
-* Twitter: [@michaelschiltz](https://twitter.com/michaelschiltz)
-* Figshare: [profile page](https://figshare.com/authors/Michael_Schiltz/409900)
-* [google scholar](https://scholar.google.ch/citations?user=A0GNY-IAAAAJ&hl=en)
+For journal articles and book chapters, see the [Google Scholar profile](https://scholar.google.ch/citations?user=A0GNY-IAAAAJ&hl=en). The [CV](/Curriculum_Vitae_Michael_Schiltz.pdf) also includes a section with working papers, preprints, and other unpublished work.
+
+## Current Projects
+
+* A book manuscript tentatively titled _Japan: A Thousand Years of Financial Innovation_, conceived as a broad introduction to Japanese financial history.
+* A study of the _Jinkoki_ [塵劫記](https://ja.wikipedia.org/wiki/%E5%A1%B5%E5%8A%AB%E8%A8%98), inspired by a wider interest in the relation between vernacular mathematical education and the development of finance.
+* Ongoing work on exchange banks and the late nineteenth-century fall of silver, including newly acquired balance-sheet archives of the [Chartered Bank of India, Australia and China](https://en.wikipedia.org/wiki/Chartered_Bank_of_India,_Australia_and_China) and the [Mercantile Bank of India, London, and China](https://en.wikipedia.org/wiki/Mercantile_Bank_of_India,_London_and_China).
+
+## Other Interests
+
+Beyond financial history, Michael Schiltz has long been engaged with [Open Access](https://en.wikipedia.org/wiki/Open_access), [free and open-source software](https://www.gnu.org/philosophy/free-sw.en.html), and the long-term preservation of cultural and scholarly records. He has also done advisory work for international organizations, the arts, and small to medium-sized memory institutions on sustainable preservation strategies.
+
+Outside academic work, his interests include [free jazz](https://en.wikipedia.org/wiki/Free_jazz), record collecting, contemporary art, hardware hacking, knife forging and sharpening, the [maker culture](https://en.wikipedia.org/wiki/Maker_culture), and the [Right to Repair](https://www.eff.org/issues/right-to-repair).
+
+## CV and Contact
+
+* [Download CV](/Curriculum_Vitae_Michael_Schiltz.pdf)
+* [Google Scholar](https://scholar.google.ch/citations?user=A0GNY-IAAAAJ&hl=en)
+* [Figshare](https://figshare.com/authors/Michael_Schiltz/409900)
+* [Twitter / X](https://twitter.com/michaelschiltz)
 * [Instagram](https://instagram.com/schiltzmichael) (unrelated to research)
-* ... or contact me @ michael.schiltz`@`gmail.com
+* Contact: michael.schiltz`@`gmail.com
 
-![image](/img_Yuki.jpg)
+![Portrait](/img_Yuki.jpg)
