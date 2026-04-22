@@ -6,7 +6,7 @@ His research focuses on the history of finance in Japan and Asia, exchange banki
 
 This site brings together publications, current projects, datasets, and research notes.
 
-## Current and Previous Positions
+## Previous Positions
 
 Before moving to Hokkaido University, Michael served until September 2018 as director of Digital Humanities and lecturer in history at the [Graduate Institute](https://www.graduateinstitute.ch/) in Geneva. In that role, he was also responsible for digital preservation and for curating a [major collection of historical stock exchange quotes](https://github.com/michaelschiltz/capital-markets-of-the-world).
 
