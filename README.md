@@ -1,6 +1,6 @@
 # Michael Schiltz
 
-Michael Schiltz is a financial historian affiliated with the [Modern Japanese Studies Program](https://www.oia.hokudai.ac.jp/mjsp/) at [Hokkaido University](https://www.hokudai.ac.jp). From April 2026 onward, he is also associated with the University's Graduate School of Economics and Business Administration.
+Michael is a financial historian affiliated with the [Modern Japanese Studies Program](https://www.oia.hokudai.ac.jp/mjsp/) at [Hokkaido University](https://www.hokudai.ac.jp). From April 2026 onward, he is also associated with the University's Graduate School of Economics and Business Administration.
 
 His research focuses on the history of finance in Japan and Asia, exchange banking, monetary systems, and the archival foundations of historical work. Alongside this, he remains deeply interested in digital preservation, open scholarship, reproducible research, encryption, and privacy.
 
@@ -8,7 +8,7 @@ This site brings together publications, current projects, datasets, and research
 
 ## Current and Previous Positions
 
-Before moving to Hokkaido University, Michael Schiltz served until September 2018 as director of Digital Humanities and lecturer in history at the [Graduate Institute](https://www.graduateinstitute.ch/) in Geneva. In that role, he was also responsible for digital preservation and for curating a [major collection of historical stock exchange quotes](https://github.com/michaelschiltz/capital-markets-of-the-world).
+Before moving to Hokkaido University, Michael served until September 2018 as director of Digital Humanities and lecturer in history at the [Graduate Institute](https://www.graduateinstitute.ch/) in Geneva. In that role, he was also responsible for digital preservation and for curating a [major collection of historical stock exchange quotes](https://github.com/michaelschiltz/capital-markets-of-the-world).
 
 From 2011 to 2016, he was associate professor of financial history at the [Institute for Advanced Studies on Asia](http://www.ioc.u-tokyo.ac.jp/eng/) at the [University of Tokyo](http://www.u-tokyo.ac.jp/en/).
 
@@ -30,7 +30,7 @@ For journal articles and book chapters, see the [Google Scholar profile](https:/
 
 ## Other Interests
 
-Beyond financial history, Michael Schiltz has long been engaged with [Open Access](https://en.wikipedia.org/wiki/Open_access), [free and open-source software](https://www.gnu.org/philosophy/free-sw.en.html), and the long-term preservation of cultural and scholarly records. He has also done advisory work for international organizations, the arts, and small to medium-sized memory institutions on sustainable preservation strategies.
+Beyond financial history, Michael has long been engaged with [Open Access](https://en.wikipedia.org/wiki/Open_access), [free and open-source software](https://www.gnu.org/philosophy/free-sw.en.html), and the long-term preservation of cultural and scholarly records. He has also done advisory work for international organizations, the arts, and small to medium-sized memory institutions on sustainable preservation strategies.
 
 Outside academic work, his interests include [free jazz](https://en.wikipedia.org/wiki/Free_jazz), record collecting, contemporary art, hardware hacking, knife forging and sharpening, the [maker culture](https://en.wikipedia.org/wiki/Maker_culture), and the [Right to Repair](https://www.eff.org/issues/right-to-repair).
 
