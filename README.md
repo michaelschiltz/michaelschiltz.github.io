@@ -1,4 +1,4 @@
-# Michael Schiltz
+# About Me
 
 Michael is a financial historian affiliated with the [Modern Japanese Studies Program](https://www.oia.hokudai.ac.jp/mjsp/) at [Hokkaido University](https://www.hokudai.ac.jp). From April 2026 onward, he is also associated with the University's Graduate School of Economics and Business Administration.
 
