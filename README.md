@@ -46,6 +46,7 @@ Outside academic work, my interests include [free jazz](https://en.wikipedia.org
 * Contact: michael.schiltz`@`gmail.com
 
 
+
 > "Si hortum in bibliotheca habes, deerit nihil." -- M. Tullius Cicero in a letter to Varro (Cic. Fam. 9.4).
 > "Quemad viejos leños, leed viejos libros, bebed viejos vinos, tened viejos amigos."  -- Alfonso X of Castile
 > "Sospechoso es el consejo del que induce y no peligra." -- Joaquín Setantí, Centellas (160) 
