@@ -18,6 +18,8 @@ Harvard University Press published [_The Money Doctors from Japan: Finance, Impe
 
 In 2020, Oxford University Press published [_Accounting for the Fall of Silver_](https://global.oup.com/academic/product/accounting-for-the-fall-of-silver-9780198865025?cc=us&lang=en), a study of exchange banking practice in Asia after the monetary disruptions of the 1870s. The book grew out of extensive work in the archives of the [Yokohama Specie Bank](https://en.wikipedia.org/wiki/Yokohama_Specie_Bank), especially the materials preserved in the [Rare Materials Reading Room](http://www.lib.e.u-tokyo.ac.jp/?page_id=1946) of the Economics Faculty Library at the University of Tokyo.
 
+The book clears up a longstanding problem in financial history, first pointed out by Frank King in the 1980s but left unanswered for decades.
+
 An extensive repository related to this research is available on [Figshare](https://figshare.com/projects/Yokohama_Specie_Bank___/2173). I also keep related methodological notes, source choices, calculations, and interpretations in the [research logbooks on GitHub](https://github.com/michaelschiltz/even-keel).
 
 For journal articles and book chapters, please see my [Google Scholar profile](https://scholar.google.ch/citations?user=A0GNY-IAAAAJ&hl=en). The [CV](/Curriculum_Vitae_Michael_Schiltz.pdf) also includes working papers, preprints, and other unpublished work.
