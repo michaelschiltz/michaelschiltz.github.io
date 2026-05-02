@@ -45,7 +45,7 @@ Outside academic work, my interests include [free jazz](https://en.wikipedia.org
 * [Instagram](https://instagram.com/schiltzmichael) (unrelated to research)
 * Contact: michael.schiltz`@`gmail.com
 
-## Quotes:
+## Favorite Quotes:
 
 > "Si hortum in bibliotheca habes, deerit nihil." -- M. Tullius Cicero in a letter to Varro (Cic. Fam. 9.4).
 > 
