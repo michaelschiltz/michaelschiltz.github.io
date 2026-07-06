@@ -10,7 +10,7 @@ This site brings together some of my publications, current projects, datasets, a
 
 Before moving to Hokkaido University, I served until September 2018 as director of Digital Humanities and lecturer in history at the [Graduate Institute](https://www.graduateinstitute.ch/) in Geneva. In that role, I was also responsible for digital preservation and for curating a [major collection of historical stock exchange quotes](https://github.com/michaelschiltz/capital-markets-of-the-world).
 
-From 2011 to 2016, I was associate professor of financial history at the [Institute for Advanced Studies on Asia](http://www.ioc.u-tokyo.ac.jp/eng/) at the [University of Tokyo](http://www.u-tokyo.ac.jp/en/).
+From 2011 to 2016, I was an associate professor of financial history at the [Institute for Advanced Studies on Asia](http://www.ioc.u-tokyo.ac.jp/eng/) at the [University of Tokyo](http://www.u-tokyo.ac.jp/en/).
 
 ## Books and Publications
 
