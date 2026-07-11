@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The gold standard: break the loop</title>
+<style>
+  :root{
+    --ink:#2b2b28; --muted:#6a6a63; --line:#d8d6cd;
+    --teal:#1D9E75; --tealdk:#0F6E56; --tealbg:#E1F5EE;
+    --coral:#D85A30; --coraldk:#993C1D; --coralbg:#FAECE7;
+    --nodefill:#f1efe8; --nodeline:#888780;
+    --sans:"Helvetica Neue",Helvetica,Arial,"DejaVu Sans",sans-serif;
+    --serif:Georgia,"DejaVu Serif",serif;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:#fbfaf7;color:var(--ink);font-family:var(--serif);
+       line-height:1.5;padding:26px 20px 40px;}
+  .wrap{max-width:960px;margin:0 auto;}
+  h1{font-family:var(--sans);font-size:23px;font-weight:600;margin:0 0 3px;color:#1a1a18;}
+  .sub{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin:0 0 14px;letter-spacing:.3px;}
+  hr{border:0;border-top:1.5px solid var(--teal);margin:0 0 16px;}
+  .lead{font-size:15px;margin:0 0 6px;}
+  .hint{font-family:var(--sans);font-size:12.5px;color:var(--muted);margin:0 0 14px;}
+  .stage{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 8px 4px;}
+  svg{display:block;width:100%;height:auto;}
+  .arrow-line{stroke:#5f5e5a;stroke-width:2;transition:.35s;}
+  .arrow-line.broken{stroke:var(--coral);stroke-dasharray:6 6;opacity:.65;}
+  .ret{stroke:var(--teal);stroke-width:2;fill:none;transition:.35s;}
+  .ret.broken{stroke:#b6b4aa;stroke-dasharray:6 6;}
+  .xmark{opacity:0;transition:.3s;}
+  .xmark.on{opacity:1;}
+  .cards{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 4px;}
+  .card{flex:1 1 210px;min-width:200px;text-align:left;cursor:pointer;
+        background:#fff;border:1px solid var(--line);border-radius:12px;
+        padding:12px 14px;font-family:var(--sans);transition:.2s;}
+  .card:hover{border-color:var(--nodeline);}
+  .card.active{background:var(--coralbg);border-color:var(--coral);}
+  .card .k{font-size:14px;font-weight:600;color:#1a1a18;margin:0 0 3px;display:flex;
+           justify-content:space-between;align-items:center;}
+  .card.active .k{color:var(--coraldk);}
+  .card .d{font-size:12px;color:var(--muted);margin:0;}
+  .pill{font-size:10px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;
+        border:1px solid var(--line);border-radius:20px;padding:2px 8px;color:var(--muted);}
+  .card.active .pill{background:var(--coral);border-color:var(--coral);color:#fff;}
+  .readout{margin:16px 0 0;background:var(--tealbg);border-left:3px solid var(--teal);
+           border-radius:0 8px 8px 0;padding:12px 15px;font-size:14px;min-height:52px;transition:.3s;}
+  .readout.hot{background:var(--coralbg);border-left-color:var(--coral);}
+  .readout b{color:var(--tealdk);}
+  .readout.hot b{color:var(--coraldk);}
+  .bar{display:flex;justify-content:space-between;align-items:center;margin-top:14px;
+       font-family:var(--sans);font-size:12.5px;color:var(--muted);}
+  .reset{font-family:var(--sans);font-size:12.5px;cursor:pointer;background:none;
+         border:1px solid var(--line);border-radius:8px;padding:6px 12px;color:var(--ink);}
+  .reset:hover{border-color:var(--nodeline);}
+  .foot{font-family:var(--sans);font-size:11px;color:#9a988f;margin-top:20px;}
+  @media (max-width:560px){ .card{flex:1 1 100%;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>The gold standard: break the loop</h1>
+  <p class="sub">Classical period, 1871–1914 · an interactive corrective to the textbook</p>
+  <hr>
+  <p class="lead">The textbook draws the classical gold standard as a machine that corrects itself: a deficit drains gold, money contracts, prices fall, trade rebalances. Below is that loop. But the central banks that ran it had a toolkit for defeating each step. <b>Switch on a device and watch the assumption it broke.</b></p>
+  <p class="hint">Click each card. Every one severs a specific link in David Hume's price–specie-flow mechanism.</p>
+
+  <div class="stage">
+    <svg viewBox="0 0 880 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hume's price-specie-flow loop, with links that break as devices are activated">
+      <defs>
+        <marker id="hd" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M2 1L8 5L2 9" fill="none" stroke="#5f5e5a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </marker>
+        <marker id="hg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M2 1L8 5L2 9" fill="none" stroke="#1D9E75" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </marker>
+      </defs>
+
+      <g font-family="Helvetica Neue, DejaVu Sans, sans-serif" font-size="14" fill="#2C2C2A" text-anchor="middle">
+        <rect x="20"  y="70" width="150" height="54" rx="9" fill="#f1efe8" stroke="#888780" stroke-width="1"/>
+        <text x="95"  y="102">BoP deficit</text>
+        <rect x="190" y="70" width="150" height="54" rx="9" fill="#f1efe8" stroke="#888780" stroke-width="1"/>
+        <text x="265" y="102">Gold outflow</text>
+        <rect x="360" y="70" width="150" height="54" rx="9" fill="#f1efe8" stroke="#888780" stroke-width="1"/>
+        <text x="435" y="97">Money supply</text>
+        <text x="435" y="113">contracts</text>
+        <rect x="530" y="70" width="150" height="54" rx="9" fill="#f1efe8" stroke="#888780" stroke-width="1"/>
+        <text x="605" y="102">Prices fall</text>
+        <rect x="700" y="70" width="150" height="54" rx="9" fill="#f1efe8" stroke="#888780" stroke-width="1"/>
+        <text x="775" y="97">Trade</text>
+        <text x="775" y="113">rebalances</text>
+      </g>
+
+      <line id="lnk-A" class="arrow-line" x1="170" y1="97" x2="188" y2="97" marker-end="url(#hd)"/>
+      <line id="lnk-B" class="arrow-line" x1="340" y1="97" x2="358" y2="97" marker-end="url(#hd)"/>
+      <line id="lnk-C" class="arrow-line" x1="510" y1="97" x2="528" y2="97" marker-end="url(#hd)"/>
+      <line id="lnk-D" class="arrow-line" x1="680" y1="97" x2="698" y2="97" marker-end="url(#hd)"/>
+      <path id="lnk-R" class="ret" d="M775 124 C775 175, 95 175, 95 126" marker-end="url(#hg)"/>
+      <text x="435" y="168" text-anchor="middle" font-family="Helvetica Neue, DejaVu Sans, sans-serif" font-size="12" fill="#0F6E56" id="retlabel">self-correcting: the loop closes on its own</text>
+
+      <g class="xmark" id="x-A"><circle cx="179" cy="97" r="9" fill="#fff" stroke="#D85A30" stroke-width="1.5"/><path d="M175 93l8 8M183 93l-8 8" stroke="#D85A30" stroke-width="1.6" stroke-linecap="round"/></g>
+      <g class="xmark" id="x-B"><circle cx="349" cy="97" r="9" fill="#fff" stroke="#D85A30" stroke-width="1.5"/><path d="M345 93l8 8M353 93l-8 8" stroke="#D85A30" stroke-width="1.6" stroke-linecap="round"/></g>
+      <g class="xmark" id="x-C"><circle cx="519" cy="97" r="9" fill="#fff" stroke="#D85A30" stroke-width="1.5"/><path d="M515 93l8 8M523 93l-8 8" stroke="#D85A30" stroke-width="1.6" stroke-linecap="round"/></g>
+      <g class="xmark" id="x-D"><circle cx="689" cy="97" r="9" fill="#fff" stroke="#D85A30" stroke-width="1.5"/><path d="M685 93l8 8M693 93l-8 8" stroke="#D85A30" stroke-width="1.6" stroke-linecap="round"/></g>
+    </svg>
+  </div>
+
+  <div class="cards" id="cards">
+    <button class="card" data-key="A" aria-pressed="false">
+      <p class="k">Movable gold points <span class="pill">off</span></p>
+      <p class="d">Interest-free advances to importers, altered buy/sell price of bullion — gold need not flow at all.</p>
+    </button>
+    <button class="card" data-key="B" aria-pressed="false">
+      <p class="k">Sterilization <span class="pill">off</span></p>
+      <p class="d">Offset the gold flow by buying or selling domestic assets, so the money base is untouched.</p>
+    </button>
+    <button class="card" data-key="C" aria-pressed="false">
+      <p class="k">Flat discount rate <span class="pill">off</span></p>
+      <p class="d">The Banque de France barely moved its rate (~30 changes vs ~194 at the Bank of England), so prices never adjusted.</p>
+    </button>
+    <button class="card" data-key="D" aria-pressed="false">
+      <p class="k">Rate, not specie <span class="pill">off</span></p>
+      <p class="d">Bank rate pulls in short-term capital that finances the deficit directly — no trade adjustment needed.</p>
+    </button>
+  </div>
+
+  <div class="readout" id="readout">
+    <b>The tidy story.</b> With every device off, the loop runs as Hume described — an automatic, self-correcting mechanism. Now start switching them on.
+  </div>
+
+  <div class="bar">
+    <span id="count">0 of 4 assumptions broken</span>
+    <button class="reset" id="reset">Reset the loop</button>
+  </div>
+
+  <p class="foot">Built for classroom use. Sources: Bloomfield (1959); Bordo &amp; MacDonald (1997); Bazot, Bordo &amp; Monnet (2016); Eichengreen, <i>Golden Fetters</i> (1992).</p>
+</div>
+
+<script>
+  var state = {A:false,B:false,C:false,D:false};
+  var texts = {
+    A:"<b>Movable gold points.</b> The gold points were treated as a fixed natural boundary. In fact banks moved them at will, so a deficit did not have to produce a gold outflow. The first link is already a policy choice.",
+    B:"<b>Sterilization.</b> The bank offsets the gold flow with domestic asset operations. Gold can leave without the money supply contracting — the link Hume's whole loop depends on is cut.",
+    C:"<b>Flat discount rate.</b> Even a change in the money base need not pass through to prices if the bank refuses to let its rate move. France ran exactly this policy, insulating its economy from the 'automatic' discipline.",
+    D:"<b>Rate, not specie.</b> Raising Bank rate attracts short-term capital that finances the deficit outright. Adjustment runs through London and the capital account, not through falling prices and rebalancing trade."
+  };
+  var order = ["A","B","C","D"];
+
+  function render(){
+    var n = 0;
+    order.forEach(function(k){
+      var on = state[k];
+      if(on) n++;
+      document.getElementById("lnk-"+k).classList.toggle("broken", on);
+      document.getElementById("x-"+k).classList.toggle("on", on);
+      var card = document.querySelector('.card[data-key="'+k+'"]');
+      card.classList.toggle("active", on);
+      card.setAttribute("aria-pressed", on?"true":"false");
+      card.querySelector(".pill").textContent = on ? "on" : "off";
+    });
+    var broken = n>0;
+    document.getElementById("lnk-R").classList.toggle("broken", broken);
+    document.getElementById("retlabel").textContent = broken
+      ? "no longer self-correcting" : "self-correcting: the loop closes on its own";
+    document.getElementById("retlabel").setAttribute("fill", broken ? "#9a988f" : "#0F6E56");
+    document.getElementById("count").textContent = n + " of 4 assumptions broken";
+
+    var r = document.getElementById("readout");
+    r.classList.toggle("hot", broken);
+    if(n===0){
+      r.innerHTML = "<b>The tidy story.</b> With every device off, the loop runs as Hume described — an automatic, self-correcting mechanism. Now start switching them on.";
+    } else if(n===4){
+      r.innerHTML = "<b>All four broken.</b> If the system's own managers defeated every step yet it held for forty years, automaticity was never what held it together. What did: <b>credibility and hierarchy</b> — a sterling-centred order in which the periphery pegged to a few core currencies, believed London's commitment, and bore the adjustment costs. The self-equilibrating gold standard is a textbook fiction.";
+    } else {
+      var last = null;
+      order.forEach(function(k){ if(state[k]) last=k; });
+      r.innerHTML = texts[last];
+    }
+  }
+
+  document.getElementById("cards").addEventListener("click", function(e){
+    var btn = e.target.closest(".card");
+    if(!btn) return;
+    var k = btn.getAttribute("data-key");
+    state[k] = !state[k];
+    render();
+  });
+  document.getElementById("reset").addEventListener("click", function(){
+    order.forEach(function(k){ state[k]=false; });
+    render();
+  });
+  render();
+</script>
+</body>
+</html>
