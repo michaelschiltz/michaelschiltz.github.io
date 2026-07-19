@@ -16,9 +16,7 @@ From 2011 to 2016, I was an associate professor of financial history at the [Ins
 
 Harvard University Press published [_The Money Doctors from Japan: Finance, Imperialism, and the Building of the Yen Bloc, 1895-1937_](http://www.hup.harvard.edu/catalog.php?isbn=9780674062498) in 2012.
 
-In 2020, Oxford University Press published [_Accounting for the Fall of Silver_](https://global.oup.com/academic/product/accounting-for-the-fall-of-silver-9780198865025?cc=us&lang=en), a study of exchange banking practice in Asia after the monetary disruptions of the 1870s. The book grew out of extensive work in the archives of the [Yokohama Specie Bank](https://en.wikipedia.org/wiki/Yokohama_Specie_Bank), especially the materials preserved in the [Rare Materials Reading Room](http://www.lib.e.u-tokyo.ac.jp/?page_id=1946) of the Economics Faculty Library at the University of Tokyo.
-
-The book clears up a longstanding problem in financial history, first pointed out by Frank King in the 1980s but left unanswered for decades.
+In 2020, Oxford University Press published [_Accounting for the Fall of Silver_](https://global.oup.com/academic/product/accounting-for-the-fall-of-silver-9780198865025?cc=us&lang=en), a study of exchange banking practice in Asia after the monetary disruptions of the 1870s. The book grew out of extensive work in the archives of the [Yokohama Specie Bank](https://en.wikipedia.org/wiki/Yokohama_Specie_Bank), especially the materials preserved in the [Rare Materials Reading Room](http://www.lib.e.u-tokyo.ac.jp/?page_id=1946) of the Economics Faculty Library at the University of Tokyo. It clears up a longstanding problem in financial history, first pointed out by Frank King in the 1980s but left unanswered for several decades.
 
 An extensive repository related to this research is available on [Figshare](https://figshare.com/projects/Yokohama_Specie_Bank___/2173). I also keep related methodological notes, source choices, calculations, and interpretations in the [research logbooks on GitHub](https://github.com/michaelschiltz/even-keel).
 
