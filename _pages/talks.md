@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /talks/
-title: talks & media
+title: Talks & media
 description: Invited talks, podcasts, and op-eds.
 nav: true
 nav_order: 5

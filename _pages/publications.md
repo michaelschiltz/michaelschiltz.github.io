@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Books, articles, chapters, preprints, and reviews. Also on Google Scholar and ORCID.
 nav: true
 nav_order: 1

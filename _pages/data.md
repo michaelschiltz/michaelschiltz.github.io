@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /data/
-title: data & code
+title: Data & code
 description: Databases, research logbooks, and open teaching resources.
 nav: true
 nav_order: 3

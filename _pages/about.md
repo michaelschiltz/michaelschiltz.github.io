@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Financial historian & intermittent archivist · <a href="https://www.oia.hokudai.ac.jp/mjsp/">Modern Japanese Studies Program</a>, Hokkaido University
 
