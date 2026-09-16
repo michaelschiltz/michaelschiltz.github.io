@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://michaelschiltz.github.io/alfolio-test/sitemap.xml
+Sitemap: https://michaelschiltz.github.io/sitemap.xml
