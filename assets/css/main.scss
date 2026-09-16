@@ -32,7 +32,7 @@
 @use "teachings";
 @use "typograms";
 
-/* ---- Site-specific accent colour (oxblood) --------------------------------
+/* ---- Site-specific accent colour (oxblood light / gilt dark) --------------------------------
    Overrides al-folio's default magenta (light) / cyan (dark) theme tokens.
    NOTE: this file shadows al_folio_core's assets/css/main.scss; after a gem
    upgrade, re-copy the gem's version and keep this block at the end. */
@@ -41,6 +41,6 @@
   --global-hover-color: #7b2226;
 }
 html[data-theme="dark"] {
-  --global-theme-color: #d99a95;
-  --global-hover-color: #d99a95;
+  --global-theme-color: #c9a45c;
+  --global-hover-color: #c9a45c;
 }

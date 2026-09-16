@@ -22,7 +22,7 @@ To go live, push to `michaelschiltz.github.io` with `baseurl: ""` and repeat ste
 
 ## Accent colour
 
-Oxblood (#7B2226; #D99A95 in dark mode) is set in a block at the end of `assets/css/main.scss`. That file is a local copy of the al_folio_core gem's stylesheet: after upgrading the gem, re-copy the gem's version and re-append the block.
+Oxblood #7B2226 (light mode) and gilt #C9A45C (dark mode) is set in a block at the end of `assets/css/main.scss`. That file is a local copy of the al_folio_core gem's stylesheet: after upgrading the gem, re-copy the gem's version and re-append the block.
 
 ## Licence
 
