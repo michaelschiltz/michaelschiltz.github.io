@@ -19,7 +19,7 @@ icon: prof_pic.jpg
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://michaelschiltz.github.io
-baseurl: /alfolio-test # TEST REPO ONLY. For the live site (michaelschiltz.github.io) change this to ""
+baseurl: "" # live site at michaelschiltz.github.io (set to /<repo-name> only when testing in a separate repo)
 last_updated: true
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
