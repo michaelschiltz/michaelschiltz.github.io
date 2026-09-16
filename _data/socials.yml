@@ -1,0 +1,13 @@
+# Social links shown on the about page (and navbar). See jekyll-socials for supported keys.
+email: michael.schiltz@gmail.com
+scholar_userid: A0GNY-IAAAAJ
+orcid_id: 0000-0001-9776-7918
+github_username: michaelschiltz
+x_username: michaelschiltz
+instagram_id: schiltzmichael
+figshare:
+  logo: https://figshare.com/favicon.ico
+  title: Figshare
+  url: https://figshare.com/authors/Michael_Schiltz/409900
+cv_pdf: /assets/pdf/Curriculum_Vitae_Michael_Schiltz.pdf
+rss_icon: false

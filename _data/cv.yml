@@ -1,0 +1,95 @@
+cv:
+  name: Michael Schiltz
+  label: Associate Professor of Modern Japanese History (financial history)
+  email: michael.schiltz@gmail.com
+  location: Sapporo, Japan
+  website: https://michaelschiltz.github.io
+  summary: "Financial historian. Research on the history of finance in Japan and Asia, exchange banking, monetary systems, and the archival foundations of historical work."
+  social_networks:
+    - network: ORCID
+      username: 0000-0001-9776-7918
+    - network: GitHub
+      username: michaelschiltz
+    - network: X
+      username: michaelschiltz
+  sections:
+    Experience:
+      - company: "Modern Japanese Studies Program, Hokkaido University"
+        position: "Associate Professor"
+        start_date: 2018
+        end_date: present
+        summary: "Specialty: financial history. From April 2026 also associated with the Graduate School of Economics and Business Administration."
+      - company: "Graduate Institute, Geneva"
+        position: "Director of Digital Humanities and Lecturer in History"
+        start_date: 2016
+        end_date: 2018
+      - company: "Institute for Advanced Studies on Asia, University of Tokyo"
+        position: "Associate Professor"
+        start_date: 2011
+        end_date: 2016
+      - company: "ERC Starting Grant JAPANGREATDEPRESSION (240854)"
+        position: "Principal Investigator"
+        start_date: 2010
+        end_date: 2014
+      - company: "Research Foundation – Flanders (FWO)"
+        position: "Postdoctoral Fellow"
+        start_date: 2006
+        end_date: 2010
+        summary: "Research theme: The Money Doctors from Japan"
+      - company: "University of Leuven"
+        position: "Postdoctoral Researcher / Project Leader"
+        start_date: 2003
+        end_date: 2006
+      - company: "Centro di Studi sul Rischio, University of Lecce"
+        position: "Visiting Postdoctoral Fellow"
+        start_date: 2002
+        end_date: 2003
+        summary: "Italian Ministry of Foreign Affairs"
+      - company: "Research Foundation – Flanders (FWO)"
+        position: "Doctoral Fellow"
+        start_date: 1998
+        end_date: 2002
+    Education:
+      - institution: University of Leuven
+        location: Leuven, Belgium
+        studyType: Ph.D.
+        start_date: 2002
+        end_date: 2002
+        highlights:
+          - "Summa cum laude"
+    Honors and Awards:
+      - title: "JSPS KAKENHI (C): “Accounting for the Fall of Silver? Western Exchange Banking Practice, 1870–1910”"
+        date: 2024
+        awarder: Research grant
+      - title: "JSPS KAKENHI (C): “An Analysis of the ‘flow-of-funds’ within the Yokohama Specie Bank, 1910–1940”"
+        date: 2019
+        awarder: Research grant
+      - title: "Nominated for the Mishima Kaiun Prize in the Humanities (三島海雲学術賞)"
+        date: 2014
+      - title: "Kluge Fellowship, Library of Congress (also 2007)"
+        date: 2010
+      - title: "ERC Starting Grant, JAPANGREATDEPRESSION (€549,441)"
+        date: 2009
+        awarder: Research grant
+      - title: "FWO Postdoctoral Fellowship"
+        date: 2007
+        awarder: Research grant
+      - title: "Biennial Prize of the European Association for Banking and Financial History and Financial History Review for young researchers"
+        date: 2007
+      - title: "World Society Foundation Award (with S. Magnolo and G. Verschraegen)"
+        date: 2005
+    Languages:
+      - name: Dutch
+        summary: "Native"
+      - name: Japanese
+        summary: "Excellent (spoken and written); classical Japanese (bungo)"
+      - name: English
+        summary: "Excellent"
+      - name: French
+        summary: "Excellent spoken, very good written"
+      - name: German
+        summary: "Very good spoken"
+      - name: Italian
+        summary: "Very good spoken"
+      - name: Chinese
+        summary: "Good reading (modern); excellent reading (classical)"
