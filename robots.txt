@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://michaelschiltz.github.io/alfolio-test/sitemap.xml
