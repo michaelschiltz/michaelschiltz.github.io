@@ -28,3 +28,27 @@ Oxblood #7B2226 (light mode) and gilt #C9A45C (dark mode) is set in a block at t
 
 - **Site code** (the al-folio template and configuration): MIT — see `LICENSE`.
 - **Content** (texts, bibliographic data, CV, the gold-standard interactive): CC0 1.0 Universal — see `LICENSE-CONTENT`. Photographs in `assets/img/` are excluded and remain © Michael Schiltz.
+
+## Bookshelf
+
+The Bookshelf page (`/books/`) lists one Markdown file per book in `_books/`, grouped by the year and month in `started` (newest first). Books without `started` appear under "Next up". Example, `_books/2026-09-smith-wealth-of-nations.md`:
+
+```yaml
+---
+title: "The Wealth of Nations"
+author: Adam Smith
+released: 1776                # optional
+isbn: 9780553250102           # optional; cover fetched from Open Library
+# cover: /assets/img/books/wealth.jpg   # optional local cover, overrides isbn
+started: 2026-09-03           # sets the month group; omit for "Next up"
+finished: 2026-09-28          # optional
+status: reading               # reading, finished, paused, abandoned, queued, reread, interested
+---
+Optional notes (shown on the book's own page).
+```
+
+Optional extra fields: `translator`, `publisher`, `started_month_only: true` (shows "Started June 2026" instead of a day), `zotero` (item key, used to update entries on re-import). `cover` may also be a full image URL.
+
+**From Zotero.** Books in the Zotero collection *Bookshelf* are imported on request by Claude: one file per item, with title, author, translator, publisher and ISBN from Zotero, the month from a tag `started: YYYY-MM`, and the status from a tag `status: …` (`read` is written as `finished`). A child note whose first line is "Bookshelf" becomes the text of the book's page; other notes and the abstract are never published. Covers are linked from the book's Amazon page.
+
+Books with no cover available get a plain title card. The layouts `_layouts/book-shelf.liquid`, `_layouts/book-review.liquid` and `_includes/book_cover.liquid` override al_folio_core's versions.

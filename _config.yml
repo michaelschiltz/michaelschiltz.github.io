@@ -195,6 +195,9 @@ collections:
     output: true
   projects:
     output: true
+  books:
+    output: true
+    permalink: /books/:name/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -294,6 +297,11 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: book-review
 
 sass:
   style: compressed

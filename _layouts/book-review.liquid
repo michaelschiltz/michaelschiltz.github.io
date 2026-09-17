@@ -1,0 +1,62 @@
+---
+layout: default
+---
+{% comment %}
+  Local override of al_folio_core's book-review layout: no year/tag archive
+  links (those pages don't exist on this site), a link back to the month on
+  the bookshelf instead, and one consistent cover lookup.
+{% endcomment %}
+{% assign src = '' %}
+{% if page.cover %}
+  {% assign src = page.cover | relative_url %}
+{% elsif page.olid %}
+  {% capture src %}https://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false{% endcapture %}
+{% elsif page.isbn %}
+  {% capture src %}https://covers.openlibrary.org/b/isbn/{{ page.isbn | remove: '-' | remove: ' ' }}-L.jpg?default=false{% endcapture %}
+{% endif %}
+{% assign status = page.status | downcase | strip %}
+{% if page.finished and status == 'finished' %}{% assign status = '' %}{% endif %}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.author or page.released %}
+      <p class="post-meta">
+        {{ page.author }}{% if page.author and page.released %} &nbsp;&middot;&nbsp; {% endif %}{{ page.released }}
+      </p>
+    {% endif %}
+    {% capture dates %}
+      {%- if status != '' -%}{{ status | capitalize }}{%- endif -%}
+      {%- if page.started -%}{%- if status != '' %} &nbsp;&middot;&nbsp; {% endif -%}Started {{ page.started | date: '%-d %B %Y' }}{%- endif -%}
+      {%- if page.finished %} &nbsp;&middot;&nbsp; Finished {{ page.finished | date: '%-d %B %Y' }}{%- endif -%}
+    {% endcapture %}
+    {% assign dates = dates | strip %}
+    {% if dates != '' %}<p class="post-meta">{{ dates }}</p>{% endif %}
+    <p class="post-tags">
+      {% if page.started %}
+        <a href="{{ '/books/' | relative_url }}#m{{ page.started | date: '%Y-%m' }}"><i class="fa-solid fa-book fa-sm"></i> Bookshelf, {{ page.started | date: '%B %Y' }}</a>
+      {% else %}
+        <a href="{{ '/books/' | relative_url }}#next-up"><i class="fa-solid fa-book fa-sm"></i> Bookshelf, next up</a>
+      {% endif %}
+    </p>
+    <hr>
+  </header>
+
+  <article class="book-review">
+    {% if src != '' %}
+      <figure class="book-review-cover">
+        <img alt="{{ page.title | escape }} cover" src="{{ src }}" onerror="this.parentElement.style.display='none';">
+      </figure>
+    {% endif %}
+    {{ content }}
+  </article>
+</div>
+
+<style>
+  .book-review { display: flow-root; }
+  .book-review-cover { margin: 0 0 1rem; }
+  .book-review-cover img { width: 200px; max-width: 100%; display: block; }
+  @media (min-width: 600px) {
+    .book-review-cover { float: right; margin: 0 0 1rem 1.5rem; }
+  }
+</style>

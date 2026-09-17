@@ -1,0 +1,66 @@
+---
+layout: page
+---
+{% comment %}
+  Local override of al_folio_core's book-shelf layout.
+  Groups books by year and month of `started` (newest first); books without a
+  `started` date (e.g. status: queued) are listed first under "Next up".
+  Covers: `cover` (local image path), else Open Library by `olid` or `isbn`;
+  if none is available, a plain title card is shown instead.
+{% endcomment %}
+{{ content }}
+
+{% assign books = site[page.collection] %}
+{% if books and books.size > 0 %}
+  {% assign undated = books | where_exp: 'b', 'b.started == nil' %}
+  {% assign dated = books | where_exp: 'b', 'b.started != nil' | sort: 'started' | reverse %}
+
+
+  {% if undated.size > 0 %}
+    <h2 id="next-up">Next up</h2>
+    <div class="bookshelf-row">
+      {% for item in undated %}
+        {% include book_cover.liquid item=item %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {% assign year = '' %}
+  {% assign month = '' %}
+  {% for item in dated %}
+    {% assign item_year = item.started | date: '%Y' %}
+    {% assign item_month = item.started | date: '%Y-%m' %}
+    {% if item_month != month %}
+      {% unless forloop.first %}</div>{% endunless %}
+      {% if item_year != year %}
+        <h2 id="y{{ item_year }}">{{ item_year }}</h2>
+        {% assign year = item_year %}
+      {% endif %}
+      <h3 id="m{{ item_month }}" class="bookshelf-month">{{ item.started | date: '%B' }}</h3>
+      <div class="bookshelf-row">
+      {% assign month = item_month %}
+    {% endif %}
+    {% include book_cover.liquid item=item %}
+    {% if forloop.last %}</div>{% endif %}
+  {% endfor %}
+{% else %}
+  <p><em>No books yet.</em></p>
+{% endif %}
+
+<style>
+  .bookshelf-row { display: flex; flex-wrap: wrap; gap: 1rem 1.25rem; margin: 0.5rem 0 1.5rem; }
+  .bookshelf-month { font-size: 1.1rem; margin-top: 1rem; color: var(--global-text-color-light); }
+  .bookshelf-row figure.cover { margin: 0; width: 134px; text-align: left; vertical-align: top; }
+  .bookshelf-row figure.cover img { height: 200px; width: 134px; object-fit: cover; display: block; }
+  .bookshelf-row figure.cover figcaption { text-align: center; font-size: 0.7rem; }
+  .bookshelf-row .book-card {
+    height: 200px; width: 134px; padding: 0.75rem; box-sizing: border-box;
+    display: flex; flex-direction: column; justify-content: center; text-align: center;
+    background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color);
+    border-left: 6px solid var(--global-theme-color);
+    color: var(--global-text-color); font-size: 0.8rem; line-height: 1.3;
+  }
+  .bookshelf-row .book-card .book-card-author { color: var(--global-text-color-light); font-size: 0.72rem; margin-top: 0.5rem; }
+  .bookshelf-row .book-meta { font-size: 0.78rem; line-height: 1.3; margin-top: 0.35rem; color: var(--global-text-color); }
+  .bookshelf-row .book-meta .book-meta-author { color: var(--global-text-color-light); }
+</style>

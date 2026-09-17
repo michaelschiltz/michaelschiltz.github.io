@@ -1,0 +1,37 @@
+{% assign item = include.item %}
+{% assign src = '' %}
+{% if item.cover %}
+  {% assign src = item.cover | relative_url %}
+{% elsif item.olid %}
+  {% capture src %}https://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false{% endcapture %}
+{% elsif item.isbn %}
+  {% capture src %}https://covers.openlibrary.org/b/isbn/{{ item.isbn | remove: '-' | remove: ' ' }}-L.jpg?default=false{% endcapture %}
+{% endif %}
+{% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+{% assign status = item.status | downcase | strip %}
+{% unless statuses contains status %}{% assign status = 'uncategorized' %}{% endunless %}
+<figure class="cover">
+  <a class="cover-link" href="{{ item.url | relative_url }}" title="{{ item.title | escape }}">
+    {% if src != '' %}
+      <img
+        alt="{{ item.title | escape }} cover"
+        src="{{ src }}"
+        loading="lazy"
+        onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+      >
+      <div class="book-card" style="display:none">
+    {% else %}
+      <div class="book-card">
+    {% endif %}
+        <div class="book-card-title"><em>{{ item.title }}</em></div>
+        {% if item.author %}<div class="book-card-author">{{ item.author }}</div>{% endif %}
+      </div>
+    <figcaption class="{{ status }}">{{ status | upcase }}</figcaption>
+  </a>
+  {% if src != '' %}
+    <div class="book-meta">
+      <em>{{ item.title }}</em>
+      {% if item.author %}<br><span class="book-meta-author">{{ item.author }}</span>{% endif %}
+    </div>
+  {% endif %}
+</figure>
