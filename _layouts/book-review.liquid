@@ -51,12 +51,20 @@ layout: default
       </figure>
     {% endif %}
     {{ content }}
+    {% if page.blurb %}
+      <section class="book-blurb">
+        <h3>From the publisher</h3>
+        {{ page.blurb | markdownify }}
+      </section>
+    {% endif %}
   </article>
 </div>
 
 <style>
   .book-review { display: flow-root; }
   .book-review-cover { margin: 0 0 1rem; }
+  .book-blurb { margin-top: 1.5rem; }
+  .book-blurb h3 { font-size: 1rem; color: var(--global-text-color-light); }
   .book-review-cover img { width: 200px; max-width: 100%; display: block; }
   @media (min-width: 600px) {
     .book-review-cover { float: right; margin: 0 0 1rem 1.5rem; }
