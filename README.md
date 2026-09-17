@@ -47,8 +47,16 @@ status: reading               # reading, finished, paused, abandoned, queued, re
 Optional notes (shown on the book's own page).
 ```
 
-Optional extra fields: `translator`, `publisher`, `started_month_only: true` (shows "Started June 2026" instead of a day), `zotero` (item key, used to update entries on re-import). `cover` may also be a full image URL.
+Optional extra fields: `translator`, `publisher`, `blurb` (publisher's description), `started_month_only: true` (shows "Started June 2026" instead of a day), `zotero` (item key, used to update entries on re-import). `cover` may also be a full image URL.
 
-**From Zotero.** Books in the Zotero collection *Bookshelf* are imported on request by Claude: one file per item, with title, author, translator, publisher and ISBN from Zotero, the month from a tag `started: YYYY-MM`, and the status from a tag `status: …` (`read` is written as `finished`). A child note whose first line is "Bookshelf" becomes the text of the book's page; other notes and the abstract are never published. Covers are linked from the book's Amazon page.
+**From Zotero.** Zotero is the master copy for the bookshelf. Books in the Zotero collection *Bookshelf* are imported on request by Claude, one file per item:
+
+- title, author, translator, publisher, ISBN: from the Zotero fields;
+- month: tag `started: YYYY-MM`; status: tag `status: …` (`read` is written as `finished`);
+- publisher's description: the Zotero *Abstract* field, shown on the book's page under "From the publisher" (stored as `blurb:` in the file);
+- your own notes: a child note in Zotero whose first line is `Bookshelf`. Everything below that line becomes the text of the book's page (bold, italics, links, lists and paragraphs carry over). Other notes are never published;
+- cover: linked from the book's Amazon page.
+
+Because each import rewrites the file from Zotero, edit notes and descriptions in Zotero, not in the `.md` file.
 
 Books with no cover available get a plain title card. The layouts `_layouts/book-shelf.liquid`, `_layouts/book-review.liquid` and `_includes/book_cover.liquid` override al_folio_core's versions.
