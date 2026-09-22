@@ -97,3 +97,7 @@ cv:
         summary: "Very good spoken"
       - name: Chinese
         summary: "Good reading (modern); excellent reading (classical)"
+      - name: Latin
+        summary: "Reading knowledge"
+      - name: Classical Greek
+        summary: "Reading knowledge"
