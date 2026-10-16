@@ -10,4 +10,4 @@ category: current
 
 With colleagues at the [London Mathematical Laboratory](https://lml.org.uk/), I am studying the history of cooperative and corporate forms. Using the formal methods of [ergodicity economics](https://ergodicityeconomics.com/), we hope to explain the successes of cooperation and to document how these forms spread, changed, or were rejected across cultures and civilizations.
 
-A shared “coding commons” enabling this cross-civilizational comparison is central to the project. See my [GitHub profile](https://github.com/michaelschiltz) for details.
+A shared “coding commons” enabling this cross-civilizational comparison is central to the project: see the [HistorEE codebooks](https://github.com/michaelschiltz/HistorEE_codebooks) and the accompanying [working vault](https://github.com/michaelschiltz/myfoamrepo).
