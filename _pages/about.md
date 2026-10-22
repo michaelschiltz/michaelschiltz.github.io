@@ -24,7 +24,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a financial historian affiliated with the [Modern Japanese Studies Program](https://www.oia.hokudai.ac.jp/mjsp/) at [Hokkaido University](https://www.hokudai.ac.jp). From April 2026 onward, I am also associated with the University's Graduate School of Economics and Business Administration.
+I am a financial historian affiliated with the [Modern Japanese Studies Program](https://www.oia.hokudai.ac.jp/mjsp/) at [Hokkaido University](https://www.hokudai.ac.jp). I am also affiliated with the University's Graduate School of Economics and Business Administration.
 
 My research focuses on the history of finance in Japan and Asia, exchange banking, monetary systems, and the archival foundations of historical work. Alongside that, I have a longstanding interest in digital preservation, open scholarship, reproducible research, encryption, and privacy.
 
@@ -32,9 +32,9 @@ This site brings together some of my publications, current projects, datasets, a
 
 ## Books
 
-Harvard University Asia Center published [_The Money Doctors from Japan: Finance, Imperialism, and the Building of the Yen Bloc, 1895–1937_](http://www.hup.harvard.edu/catalog.php?isbn=9780674062498) in 2012.
+Harvard University Asia Center published [_The Money Doctors from Japan: Finance, Imperialism, and the Building of the Yen Bloc, 1895–1937_](https://www.hup.harvard.edu/books/9780674062498) in 2012.
 
-In 2020, Oxford University Press published [_Accounting for the Fall of Silver_](https://global.oup.com/academic/product/accounting-for-the-fall-of-silver-9780198865025?cc=us&lang=en), a study of exchange banking practice in Asia after the monetary disruptions of the 1870s. The book grew out of extensive work in the archives of the [Yokohama Specie Bank](https://en.wikipedia.org/wiki/Yokohama_Specie_Bank), especially the materials preserved in the [Rare Materials Reading Room](http://www.lib.e.u-tokyo.ac.jp/?page_id=1946) of the Economics Faculty Library at the University of Tokyo. It clears up a longstanding problem in financial history, first pointed out by Frank King in the 1980s but left unanswered for several decades.
+In 2020, Oxford University Press published [_Accounting for the Fall of Silver_](https://global.oup.com/academic/product/accounting-for-the-fall-of-silver-9780198865025?cc=us&lang=en), a study of exchange banking practice in Asia after the monetary disruptions of the 1870s. The book grew out of extensive work in the archives of the [Yokohama Specie Bank](https://en.wikipedia.org/wiki/Yokohama_Specie_Bank), especially the materials preserved in the [Rare Materials Reading Room](https://www.lib.e.u-tokyo.ac.jp/?page_id=1946) of the Economics Faculty Library at the University of Tokyo. It clears up a longstanding problem in financial history, first pointed out by Frank King in the 1980s but left unanswered for several decades.
 
 ## Other interests
 
