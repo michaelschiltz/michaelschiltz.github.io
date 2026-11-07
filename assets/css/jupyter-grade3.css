@@ -399,6 +399,14 @@ textarea {
   color: #828892;
 }
 
+:-ms-input-placeholder {
+  color: #828892;
+}
+
+:-moz-placeholder {
+  color: #828892;
+}
+
 ::-webkit-scrollbar {
   width: 11px;
   max-height: 9px;
