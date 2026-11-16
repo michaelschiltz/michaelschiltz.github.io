@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "michaelschiltz.github.io — source of the personal academic website of Michael Schiltz"
+message: "If you cite this website, please cite it using these metadata."
+type: software
+authors:
+  - family-names: Schiltz
+    given-names: Michael
+    affiliation: Hokkaido University
+    orcid: "https://orcid.org/0000-0001-9776-7918"
+abstract: "Jekyll source of https://michaelschiltz.github.io: publications, projects, datasets, research notes, and a bookshelf of works read. Site content is dedicated to the public domain under CC0 1.0 (LICENSE-CONTENT); the al-folio theme code is MIT-licensed, copyright Maruan Al-Shedivat (LICENSE)."
+repository-code: "https://github.com/michaelschiltz/michaelschiltz.github.io"
+url: "https://michaelschiltz.github.io"
+license: CC0-1.0
+keywords:
+  - financial history
+  - economic history
+  - Japan
+  - East Asia
+  - open scholarship

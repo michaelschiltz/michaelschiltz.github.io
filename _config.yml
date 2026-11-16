@@ -222,6 +222,7 @@ exclude:
   - AGENTS.md
   - al-folio-upgrade-report.md
   - bin/
+  - CITATION.cff
   - CLAUDE.md
   - Dockerfile
   - docker-compose.yml

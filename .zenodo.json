@@ -1,0 +1,22 @@
+{
+  "title": "michaelschiltz.github.io — source of the personal academic website of Michael Schiltz",
+  "upload_type": "software",
+  "description": "<p>Jekyll source of <a href=\"https://michaelschiltz.github.io\">michaelschiltz.github.io</a>: publications, projects, datasets, research notes, and a bookshelf of works read. Each deposit is a snapshot of the site's source at a release; the live site is the GitHub repository.</p><p>Site content is dedicated to the public domain under CC0 1.0 (<code>LICENSE-CONTENT</code>). The <a href=\"https://github.com/alshedivat/al-folio\">al-folio</a> theme code is MIT-licensed, copyright Maruan Al-Shedivat (<code>LICENSE</code>).</p>",
+  "creators": [
+    {
+      "name": "Schiltz, Michael",
+      "affiliation": "Hokkaido University",
+      "orcid": "0000-0001-9776-7918"
+    }
+  ],
+  "license": "cc0-1.0",
+  "keywords": ["financial history", "economic history", "Japan", "East Asia", "open scholarship"],
+  "related_identifiers": [
+    {
+      "identifier": "https://michaelschiltz.github.io",
+      "relation": "isSupplementTo",
+      "resource_type": "other",
+      "scheme": "url"
+    }
+  ]
+}
