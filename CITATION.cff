@@ -10,6 +10,11 @@ authors:
 abstract: "Jekyll source of https://michaelschiltz.github.io: publications, projects, datasets, research notes, and a bookshelf of works read. Site content is dedicated to the public domain under CC0 1.0 (LICENSE-CONTENT); the al-folio theme code is MIT-licensed, copyright Maruan Al-Shedivat (LICENSE)."
 repository-code: "https://github.com/michaelschiltz/michaelschiltz.github.io"
 url: "https://michaelschiltz.github.io"
+doi: "10.5281/zenodo.24284808"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24284808"
+    description: "Zenodo concept DOI — represents all versions, resolves to the latest"
 license: CC0-1.0
 keywords:
   - financial history

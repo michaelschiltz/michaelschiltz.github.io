@@ -1,5 +1,7 @@
 # michaelschiltz.github.io
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24284808.svg)](https://doi.org/10.5281/zenodo.24284808)
+
 Personal academic site of Michael Schiltz, built on [al-folio](https://github.com/alshedivat/al-folio) v1.x (MIT).
 
 * Bio and news: `_pages/about.md`, `_news/`
