@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.65.1",
-    "@shopify/prettier-plugin-liquid": "^1.10.0",
+    "@shopify/prettier-plugin-liquid": "^1.11.6",
     "pixelmatch": "^7.1.0",
     "pngjs": "^7.0.0",
     "prettier": "^3.8.0"
